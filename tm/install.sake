@@ -1,0 +1,6 @@
+namespace 'tm' do
+  desc "Install Textmate Bundles & more from kballard/tmbundle on Github"
+  task :install do
+    system "cd $HOME/Library/Application\\ Support/ && git clone git://github.com/kballard/textmate-bundles.git TextMate"
+  end
+end
