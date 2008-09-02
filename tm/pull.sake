@@ -1,0 +1,6 @@
+namespace 'tm' do
+  desc "Update Textmate Bundles with git"
+  task :pull do
+    system "cd $HOME/Library/Application\\ Support/Textmate && git pull"    
+  end
+end
